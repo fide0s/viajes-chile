@@ -1,8 +1,37 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 * {
     font-family: 'Cabin', sans-serif;
-    
+
     outline: solid 0px red;
     margin: 0;
     padding: 0;
+    color: white;
+    background-color: black
 }
 
+body {
+
+}
+
+.logo {
+    width: 40px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+
+.nav-black {
+    background-color: #000;
+    opacity: 0.9;
+    color: white;
+  }
